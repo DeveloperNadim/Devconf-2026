@@ -345,3 +345,40 @@ body {
   font-size: 13px;
   color: #9ca3af;
 }
+/* footer section */
+footer{
+    background-color: #575757;
+    padding-top: 30px;
+    height: 170px;
+}
+.footer-child1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.footer-social i {
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    padding-top: 15px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer-copyright-right {
+    display: flex;
+    gap: 20px;
+}
+.footer-logo img {
+    cursor: pointer;
+}
+hr{
+    max-width: 95%;
+    margin: 0 auto;
+}
