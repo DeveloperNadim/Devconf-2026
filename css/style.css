@@ -124,4 +124,145 @@ body {
     border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
     height:430px;
+    transition: 0.3s;
+}
+.speakers:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+/* price card section */
+.pricing-section {
+    margin: 0 40px;
+}
+.pricing-section > h2{
+    color: #0D1B2A;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+.pricing-section >p {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 30px;
+}
+.package {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    padding: 8px 0;
+}
+.price {
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding: 10px 0;
+}
+.card {
+  width: 300px;
+  height: 380px;
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.card > p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+    padding: 8px 0;
+}
+.card ul li {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+}
+.card ul li::marker{
+    color: #2563EB;
+}
+.price-card-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0D1B2A;
+  background-color: #F8F9FB;
+  border: 1px solid #0D1B2A ;
+  width: 90%;
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+.price-card-pro-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #2563EB;
+  border: none;
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 8px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+.pro-card {
+    background-color: #0D1B2A;
+    border-radius: 12px;
+    width: 320px;
+    height: 400px;
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pro-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.pro-card > .price {
+    font-size: 44px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.pro-package{
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8px 0;
+}
+.pro-p {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 8px 0;
+}
+.pro-card ul li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+}
+.pro-card ul li::marker{
+    color: #2563EB;
 }
